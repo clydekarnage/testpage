@@ -1,0 +1,169 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* NAVIGATION */
+.navfont{
+  color: #363636;
+}
+.nav-logo{
+  position: relative;
+}
+
+.main-logo span{
+  font-size: 6.4px;
+  position: absolute;
+  bottom: 11px;
+  left: 32px;
+}
+
+/* .logo-hr{
+  border-bottom: 1px solid gray;
+} */
+/* END NAVIGATION */
+
+/* Part 1 */
+.part1-small{
+  font-size: 12px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 5px;
+  letter-spacing: -0.5px;
+}
+.part1-big{
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 3.5px;
+  line-height: 36px;
+}
+.part1-border{
+  border-right: 1px solid gray;
+}
+.part1-date{
+  margin-top: 9px;
+}
+.firstdate{
+  font-size: 14px;
+  font-weight: 700;
+}
+.seconddate{
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 15px;
+}
+/* End Part 1 */
+
+/* Part 2 */
+.part2{
+  background: rgba(236, 236, 236);
+}
+.part2-body h3{
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  color: red;
+}
+.part2-body p{
+  padding-top: 13px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.part2-last{
+  padding-bottom: 20px;
+}
+/* End Part 2 */
+
+/* Part 3 */
+.listpage3 h3{
+  padding-top: 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: red;
+}
+.list-page3{
+  margin-bottom: 20px;
+}
+
+.list-page li{
+
+  margin-left: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.par3button{
+  padding-top: 10px;
+}
+/* End Part 3 */
+
+/* Part 4 */
+.part4title h1{
+  font-size: 21px;
+    font-weight: 700;
+}
+.body-part4 h2 h3{
+  color: white;
+}
+.part4content{
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.part4content h2{ 
+  font-size: 14px;
+  font-weight: 500;
+}
+.part4content h3{
+  font-size: 14px;
+}
+.part4bg{
+  background-color: black;
+  margin-top: 12px;
+}
+/* End Part 4 */
+
+/* Footer */
+.bgcolor{
+  background: black;
+}
+.footercontent h1{
+  color: white;
+  padding-top: 32px;
+  padding-bottom: 13px;
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.footercolor1{
+  color: white;
+  font-size: 12px;
+}
+.footercolor{
+  color: white;
+  border-right: 1px solid white;
+  font-size: 12px;
+}
+
+.footer-padding{
+  padding-bottom: 30px;
+}
+/* End Footer */
